@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DC143C"
+    android:orientation="vertical" >
+<TextView
+    android:id="@+id/txtdia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:text="Good day! Thank you for using our app. Self-reflection is one of the biggest catalysts to personal growth. Jotting down entries as often as you can is simply investing in your future."
+    android:textColor="@android:color/white"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#3E80B4"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:text="Got it!"
+        android:textColor="#5DBCD2"
+        android:textStyle="italic" />
+</LinearLayout>
+</LinearLayout>
